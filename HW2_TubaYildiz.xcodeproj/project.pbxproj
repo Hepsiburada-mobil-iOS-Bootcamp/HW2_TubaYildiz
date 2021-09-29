@@ -16,6 +16,29 @@
 		184617F0270257790068A3CB /* HW2_TubaYildizTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184617EF270257790068A3CB /* HW2_TubaYildizTests.swift */; };
 		184617FA270257790068A3CB /* HW2_TubaYildizUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184617F9270257790068A3CB /* HW2_TubaYildizUITests.swift */; };
 		184617FC270257790068A3CB /* HW2_TubaYildizUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184617FB270257790068A3CB /* HW2_TubaYildizUITestsLaunchTests.swift */; };
+		1846180B270324AF0068A3CB /* ActionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1846180A270324AF0068A3CB /* ActionButton.swift */; };
+		1846180E27032AE30068A3CB /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1846180D27032AE30068A3CB /* BaseView.swift */; };
+		18461810270330020068A3CB /* ActionButtonData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1846180F270330020068A3CB /* ActionButtonData.swift */; };
+		18461812270333610068A3CB /* ActionButtonType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18461811270333610068A3CB /* ActionButtonType.swift */; };
+		184618142703336F0068A3CB /* ActionButtonTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184618132703336F0068A3CB /* ActionButtonTheme.swift */; };
+		1846181727037E150068A3CB /* GenericValueProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1846181627037E150068A3CB /* GenericValueProtocol.swift */; };
+		1846181927037F520068A3CB /* GenericBaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1846181827037F520068A3CB /* GenericBaseView.swift */; };
+		1846181D27039A140068A3CB /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1846181C27039A140068A3CB /* UIView+Extensions.swift */; };
+		184618202703AB190068A3CB /* ActionModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1846181F2703AB190068A3CB /* ActionModule.swift */; };
+		184618222703AB4C0068A3CB /* ActionModuleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184618212703AB4C0068A3CB /* ActionModuleData.swift */; };
+		184618252704EE2A0068A3CB /* LabelComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184618242704EE2A0068A3CB /* LabelComponent.swift */; };
+		184618272704EE3E0068A3CB /* LabelComponentData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184618262704EE3E0068A3CB /* LabelComponentData.swift */; };
+		184618292704F3D50068A3CB /* FontManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184618282704F3D50068A3CB /* FontManager.swift */; };
+		1846182C2704F5DC0068A3CB /* PermissionMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1846182B2704F5DC0068A3CB /* PermissionMainView.swift */; };
+		1846182E2704F60C0068A3CB /* PermissionMainViewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1846182D2704F60C0068A3CB /* PermissionMainViewData.swift */; };
+		184618342704FDD30068A3CB /* PermissionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184618332704FDD30068A3CB /* PermissionViewController.swift */; };
+		18461838270500F40068A3CB /* PermissionImages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18461837270500F40068A3CB /* PermissionImages.swift */; };
+		1846183C270513090068A3CB /* PermissionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1846183B270513090068A3CB /* PermissionViewModel.swift */; };
+		1846183E270513CC0068A3CB /* PermissionManagerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1846183D270513CC0068A3CB /* PermissionManagerProtocol.swift */; };
+		18461840270516740068A3CB /* PermissionViewBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1846183F270516740068A3CB /* PermissionViewBuilder.swift */; };
+		18461843270517930068A3CB /* CameraPermissionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18461842270517920068A3CB /* CameraPermissionManager.swift */; };
+		18461846270518AA0068A3CB /* PhotosPermissionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18461845270518AA0068A3CB /* PhotosPermissionManager.swift */; };
+		18461849270519AA0068A3CB /* PermissionViewFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18461848270519AA0068A3CB /* PermissionViewFactory.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +72,29 @@
 		184617F5270257790068A3CB /* HW2_TubaYildizUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HW2_TubaYildizUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		184617F9270257790068A3CB /* HW2_TubaYildizUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HW2_TubaYildizUITests.swift; sourceTree = "<group>"; };
 		184617FB270257790068A3CB /* HW2_TubaYildizUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HW2_TubaYildizUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1846180A270324AF0068A3CB /* ActionButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionButton.swift; sourceTree = "<group>"; };
+		1846180D27032AE30068A3CB /* BaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
+		1846180F270330020068A3CB /* ActionButtonData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionButtonData.swift; sourceTree = "<group>"; };
+		18461811270333610068A3CB /* ActionButtonType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionButtonType.swift; sourceTree = "<group>"; };
+		184618132703336F0068A3CB /* ActionButtonTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionButtonTheme.swift; sourceTree = "<group>"; };
+		1846181627037E150068A3CB /* GenericValueProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericValueProtocol.swift; sourceTree = "<group>"; };
+		1846181827037F520068A3CB /* GenericBaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericBaseView.swift; sourceTree = "<group>"; };
+		1846181C27039A140068A3CB /* UIView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
+		1846181F2703AB190068A3CB /* ActionModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionModule.swift; sourceTree = "<group>"; };
+		184618212703AB4C0068A3CB /* ActionModuleData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionModuleData.swift; sourceTree = "<group>"; };
+		184618242704EE2A0068A3CB /* LabelComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelComponent.swift; sourceTree = "<group>"; };
+		184618262704EE3E0068A3CB /* LabelComponentData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelComponentData.swift; sourceTree = "<group>"; };
+		184618282704F3D50068A3CB /* FontManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontManager.swift; sourceTree = "<group>"; };
+		1846182B2704F5DC0068A3CB /* PermissionMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PermissionMainView.swift; sourceTree = "<group>"; };
+		1846182D2704F60C0068A3CB /* PermissionMainViewData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PermissionMainViewData.swift; sourceTree = "<group>"; };
+		184618332704FDD30068A3CB /* PermissionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PermissionViewController.swift; sourceTree = "<group>"; };
+		18461837270500F40068A3CB /* PermissionImages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PermissionImages.swift; sourceTree = "<group>"; };
+		1846183B270513090068A3CB /* PermissionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PermissionViewModel.swift; sourceTree = "<group>"; };
+		1846183D270513CC0068A3CB /* PermissionManagerProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PermissionManagerProtocol.swift; sourceTree = "<group>"; };
+		1846183F270516740068A3CB /* PermissionViewBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PermissionViewBuilder.swift; sourceTree = "<group>"; };
+		18461842270517920068A3CB /* CameraPermissionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraPermissionManager.swift; sourceTree = "<group>"; };
+		18461845270518AA0068A3CB /* PhotosPermissionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosPermissionManager.swift; sourceTree = "<group>"; };
+		18461848270519AA0068A3CB /* PermissionViewFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PermissionViewFactory.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +145,11 @@
 		184617D7270257710068A3CB /* HW2_TubaYildiz */ = {
 			isa = PBXGroup;
 			children = (
+				18461839270512740068A3CB /* Managers */,
+				184618302704FD6D0068A3CB /* Scenes */,
+				184618082703246A0068A3CB /* Components */,
+				1846181527037DFC0068A3CB /* Utilities */,
+				1846180C27032ABE0068A3CB /* BaseComponent */,
 				184617D8270257710068A3CB /* AppDelegate.swift */,
 				184617DA270257710068A3CB /* SceneDelegate.swift */,
 				184617DC270257710068A3CB /* ViewController.swift */,
@@ -125,6 +176,176 @@
 				184617FB270257790068A3CB /* HW2_TubaYildizUITestsLaunchTests.swift */,
 			);
 			path = HW2_TubaYildizUITests;
+			sourceTree = "<group>";
+		};
+		184618082703246A0068A3CB /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				1846182A2704F5C70068A3CB /* PermissionMainComponent */,
+				184618232704EE0E0068A3CB /* LabelComponent */,
+				1846181E2703AAFE0068A3CB /* ActionModuleComponent */,
+				18461809270324890068A3CB /* ActionButtonComponent */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		18461809270324890068A3CB /* ActionButtonComponent */ = {
+			isa = PBXGroup;
+			children = (
+				1846180A270324AF0068A3CB /* ActionButton.swift */,
+				1846180F270330020068A3CB /* ActionButtonData.swift */,
+				18461811270333610068A3CB /* ActionButtonType.swift */,
+				184618132703336F0068A3CB /* ActionButtonTheme.swift */,
+			);
+			path = ActionButtonComponent;
+			sourceTree = "<group>";
+		};
+		1846180C27032ABE0068A3CB /* BaseComponent */ = {
+			isa = PBXGroup;
+			children = (
+				1846181627037E150068A3CB /* GenericValueProtocol.swift */,
+				1846180D27032AE30068A3CB /* BaseView.swift */,
+				1846181827037F520068A3CB /* GenericBaseView.swift */,
+			);
+			path = BaseComponent;
+			sourceTree = "<group>";
+		};
+		1846181527037DFC0068A3CB /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				18461835270500D00068A3CB /* AssetHelpers */,
+				1846181B270399FE0068A3CB /* Extensions */,
+				1846181A270397410068A3CB /* FontManagers */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		1846181A270397410068A3CB /* FontManagers */ = {
+			isa = PBXGroup;
+			children = (
+				184618282704F3D50068A3CB /* FontManager.swift */,
+			);
+			path = FontManagers;
+			sourceTree = "<group>";
+		};
+		1846181B270399FE0068A3CB /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				1846181C27039A140068A3CB /* UIView+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		1846181E2703AAFE0068A3CB /* ActionModuleComponent */ = {
+			isa = PBXGroup;
+			children = (
+				1846181F2703AB190068A3CB /* ActionModule.swift */,
+				184618212703AB4C0068A3CB /* ActionModuleData.swift */,
+			);
+			path = ActionModuleComponent;
+			sourceTree = "<group>";
+		};
+		184618232704EE0E0068A3CB /* LabelComponent */ = {
+			isa = PBXGroup;
+			children = (
+				184618242704EE2A0068A3CB /* LabelComponent.swift */,
+				184618262704EE3E0068A3CB /* LabelComponentData.swift */,
+			);
+			path = LabelComponent;
+			sourceTree = "<group>";
+		};
+		1846182A2704F5C70068A3CB /* PermissionMainComponent */ = {
+			isa = PBXGroup;
+			children = (
+				1846182B2704F5DC0068A3CB /* PermissionMainView.swift */,
+				1846182D2704F60C0068A3CB /* PermissionMainViewData.swift */,
+			);
+			path = PermissionMainComponent;
+			sourceTree = "<group>";
+		};
+		184618302704FD6D0068A3CB /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				184618322704FD950068A3CB /* Permission */,
+				184618312704FD780068A3CB /* Main */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		184618312704FD780068A3CB /* Main */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		184618322704FD950068A3CB /* Permission */ = {
+			isa = PBXGroup;
+			children = (
+				184618332704FDD30068A3CB /* PermissionViewController.swift */,
+				1846183B270513090068A3CB /* PermissionViewModel.swift */,
+				1846183F270516740068A3CB /* PermissionViewBuilder.swift */,
+			);
+			path = Permission;
+			sourceTree = "<group>";
+		};
+		18461835270500D00068A3CB /* AssetHelpers */ = {
+			isa = PBXGroup;
+			children = (
+				18461836270500E20068A3CB /* PermissionImages */,
+			);
+			path = AssetHelpers;
+			sourceTree = "<group>";
+		};
+		18461836270500E20068A3CB /* PermissionImages */ = {
+			isa = PBXGroup;
+			children = (
+				18461837270500F40068A3CB /* PermissionImages.swift */,
+			);
+			path = PermissionImages;
+			sourceTree = "<group>";
+		};
+		18461839270512740068A3CB /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				18461847270519930068A3CB /* PermissionViewFactory */,
+				18461844270518990068A3CB /* PhotosPermissionManager */,
+				18461841270517430068A3CB /* CameraPermissionManager */,
+				1846183A270512870068A3CB /* PermissionProtocols */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		1846183A270512870068A3CB /* PermissionProtocols */ = {
+			isa = PBXGroup;
+			children = (
+				1846183D270513CC0068A3CB /* PermissionManagerProtocol.swift */,
+			);
+			path = PermissionProtocols;
+			sourceTree = "<group>";
+		};
+		18461841270517430068A3CB /* CameraPermissionManager */ = {
+			isa = PBXGroup;
+			children = (
+				18461842270517920068A3CB /* CameraPermissionManager.swift */,
+			);
+			path = CameraPermissionManager;
+			sourceTree = "<group>";
+		};
+		18461844270518990068A3CB /* PhotosPermissionManager */ = {
+			isa = PBXGroup;
+			children = (
+				18461845270518AA0068A3CB /* PhotosPermissionManager.swift */,
+			);
+			path = PhotosPermissionManager;
+			sourceTree = "<group>";
+		};
+		18461847270519930068A3CB /* PermissionViewFactory */ = {
+			isa = PBXGroup;
+			children = (
+				18461848270519AA0068A3CB /* PermissionViewFactory.swift */,
+			);
+			path = PermissionViewFactory;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,9 +479,32 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1846183E270513CC0068A3CB /* PermissionManagerProtocol.swift in Sources */,
 				184617DD270257710068A3CB /* ViewController.swift in Sources */,
 				184617D9270257710068A3CB /* AppDelegate.swift in Sources */,
+				1846181727037E150068A3CB /* GenericValueProtocol.swift in Sources */,
+				184618342704FDD30068A3CB /* PermissionViewController.swift in Sources */,
+				1846181927037F520068A3CB /* GenericBaseView.swift in Sources */,
+				1846180E27032AE30068A3CB /* BaseView.swift in Sources */,
+				18461840270516740068A3CB /* PermissionViewBuilder.swift in Sources */,
+				1846183C270513090068A3CB /* PermissionViewModel.swift in Sources */,
+				184618222703AB4C0068A3CB /* ActionModuleData.swift in Sources */,
+				18461846270518AA0068A3CB /* PhotosPermissionManager.swift in Sources */,
+				18461810270330020068A3CB /* ActionButtonData.swift in Sources */,
+				18461849270519AA0068A3CB /* PermissionViewFactory.swift in Sources */,
+				18461838270500F40068A3CB /* PermissionImages.swift in Sources */,
+				1846182E2704F60C0068A3CB /* PermissionMainViewData.swift in Sources */,
 				184617DB270257710068A3CB /* SceneDelegate.swift in Sources */,
+				184618252704EE2A0068A3CB /* LabelComponent.swift in Sources */,
+				1846182C2704F5DC0068A3CB /* PermissionMainView.swift in Sources */,
+				1846180B270324AF0068A3CB /* ActionButton.swift in Sources */,
+				18461812270333610068A3CB /* ActionButtonType.swift in Sources */,
+				184618202703AB190068A3CB /* ActionModule.swift in Sources */,
+				184618272704EE3E0068A3CB /* LabelComponentData.swift in Sources */,
+				184618142703336F0068A3CB /* ActionButtonTheme.swift in Sources */,
+				18461843270517930068A3CB /* CameraPermissionManager.swift in Sources */,
+				184618292704F3D50068A3CB /* FontManager.swift in Sources */,
+				1846181D27039A140068A3CB /* UIView+Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
