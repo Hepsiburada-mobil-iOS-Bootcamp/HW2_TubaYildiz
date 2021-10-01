@@ -9,8 +9,8 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    private var actionButton: ActionButton! //late init !
-    private var actionModule: ActionModule! //late init !
+    //private var actionButton: ActionButton! //late init !
+    //private var actionModule: ActionModule! //late init !
 
     
     @IBAction func cameraButtonTapped(_ sender: Any) {

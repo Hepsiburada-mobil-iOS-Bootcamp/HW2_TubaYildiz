@@ -21,7 +21,7 @@ class ActionButtonData{
     }
     
     //Builder design pattern: lego gibi parçalar ekleniyor ve self return ediiliyor
-    func setActionButtonListener(by value: VoidCompletionBlock?) -> Self {
+    func setActionButtonListener(by value:VoidCompletionBlock?) -> Self {
         actionButtonListener = value
         return self
     }

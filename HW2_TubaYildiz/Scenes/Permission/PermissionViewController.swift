@@ -7,25 +7,17 @@
 
 import UIKit
 
-class PermissionViewController: UIViewController {
+class PermissionViewController: BaseViewController<PermissionViewModel> {
 
-    private var viewModel: PermissionViewModel!
     private var permissionMainView: PermissionMainView!
     
-    
-    convenience init(viewModel: PermissionViewModel)
-    {
-        self.init()
-        self.viewModel = viewModel
-    }
-
-    override func viewDidLoad() {
-        super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        
+    override func prepareViewControllerConfigurations() {
+        //super.prepareViewControllerConfigurations()
         addPermissionMainView()
+        subscribeViewModelListeners()
     }
-    
+  
     private func addPermissionMainView(){
         permissionMainView = PermissionMainView(data: viewModel.getPermissionMainViewData())
         permissionMainView.translatesAutoresizingMaskIntoConstraints =  false
@@ -37,9 +29,12 @@ class PermissionViewController: UIViewController {
             permissionMainView.bottomAnchor.constraint(equalTo: view.bottomAnchor)
         ])
     }
-//    private func getPermissionViewData() -> PermissionMainViewData{
-//        return PermissionMainViewData(image: PermissionImages.camera.value, labelData: LabelComponentData(title: "Camera Permission", subTitle: "Would you please give permission to access your camera."), actionModuleData: ActionModuleData(negativeButtonData: ActionButtonData(text: "Not Now", type: .outlined(.smooth)), positiveButtonData: ActionButtonData(text: "OK", type: .filled(.smooth))))
-//
-//    }
+    
+    private func subscribeViewModelListeners(){
+        viewModel.listenManagerActions { [weak self] in
+            self?.dismiss(animated: true, completion: nil)
+            
+        }
+    }
 
 }

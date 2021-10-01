@@ -1,0 +1,18 @@
+/* 
+  Localizable.strings
+  HW2_TubaYildiz
+
+  Created by Tuba Nur on 30.09.2021.
+  
+*/
+
+
+"cameraPermissionTitle" = "Kamera İzni";
+"cameraPermissionSubtitle" = "Lütfen kameranıza erişim için uygulamaya izin veriniz.";
+
+
+"photosPermissionTitle" = "Galeri İzni";
+"photosPermissionSubTitle" = "Lütfen fotoğraf galerinize erişim için uygulamaya izin veriniz.";
+
+"permissionOk" = "Tamam";
+"permissionNotNow" = "Şimdi Değil";

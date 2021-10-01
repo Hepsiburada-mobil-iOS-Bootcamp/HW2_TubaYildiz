@@ -39,6 +39,10 @@
 		18461843270517930068A3CB /* CameraPermissionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18461842270517920068A3CB /* CameraPermissionManager.swift */; };
 		18461846270518AA0068A3CB /* PhotosPermissionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18461845270518AA0068A3CB /* PhotosPermissionManager.swift */; };
 		18461849270519AA0068A3CB /* PermissionViewFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18461848270519AA0068A3CB /* PermissionViewFactory.swift */; };
+		1846184C2705A3090068A3CB /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1846184E2705A3090068A3CB /* Localizable.strings */; };
+		184618522705A5A60068A3CB /* PermissionLocalizables.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184618512705A5A60068A3CB /* PermissionLocalizables.swift */; };
+		184618542705CAB80068A3CB /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184618532705CAB80068A3CB /* String+Extensions.swift */; };
+		18461856270623B80068A3CB /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18461855270623B80068A3CB /* BaseViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -95,6 +99,11 @@
 		18461842270517920068A3CB /* CameraPermissionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraPermissionManager.swift; sourceTree = "<group>"; };
 		18461845270518AA0068A3CB /* PhotosPermissionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosPermissionManager.swift; sourceTree = "<group>"; };
 		18461848270519AA0068A3CB /* PermissionViewFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PermissionViewFactory.swift; sourceTree = "<group>"; };
+		1846184D2705A3090068A3CB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		1846184F2705A34A0068A3CB /* tr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = tr; path = tr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		184618512705A5A60068A3CB /* PermissionLocalizables.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PermissionLocalizables.swift; sourceTree = "<group>"; };
+		184618532705CAB80068A3CB /* String+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
+		18461855270623B80068A3CB /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -157,6 +166,7 @@
 				184617E1270257780068A3CB /* Assets.xcassets */,
 				184617E3270257780068A3CB /* LaunchScreen.storyboard */,
 				184617E6270257780068A3CB /* Info.plist */,
+				1846184E2705A3090068A3CB /* Localizable.strings */,
 			);
 			path = HW2_TubaYildiz;
 			sourceTree = "<group>";
@@ -206,6 +216,7 @@
 				1846181627037E150068A3CB /* GenericValueProtocol.swift */,
 				1846180D27032AE30068A3CB /* BaseView.swift */,
 				1846181827037F520068A3CB /* GenericBaseView.swift */,
+				18461855270623B80068A3CB /* BaseViewController.swift */,
 			);
 			path = BaseComponent;
 			sourceTree = "<group>";
@@ -213,6 +224,7 @@
 		1846181527037DFC0068A3CB /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
+				184618502705A57F0068A3CB /* PermissionLocalizables */,
 				18461835270500D00068A3CB /* AssetHelpers */,
 				1846181B270399FE0068A3CB /* Extensions */,
 				1846181A270397410068A3CB /* FontManagers */,
@@ -232,6 +244,7 @@
 			isa = PBXGroup;
 			children = (
 				1846181C27039A140068A3CB /* UIView+Extensions.swift */,
+				184618532705CAB80068A3CB /* String+Extensions.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -348,6 +361,14 @@
 			path = PermissionViewFactory;
 			sourceTree = "<group>";
 		};
+		184618502705A57F0068A3CB /* PermissionLocalizables */ = {
+			isa = PBXGroup;
+			children = (
+				184618512705A5A60068A3CB /* PermissionLocalizables.swift */,
+			);
+			path = PermissionLocalizables;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -434,6 +455,7 @@
 			knownRegions = (
 				en,
 				Base,
+				tr,
 			);
 			mainGroup = 184617CC270257710068A3CB;
 			productRefGroup = 184617D6270257710068A3CB /* Products */;
@@ -453,6 +475,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				184617E5270257780068A3CB /* LaunchScreen.storyboard in Resources */,
+				1846184C2705A3090068A3CB /* Localizable.strings in Resources */,
 				184617E2270257780068A3CB /* Assets.xcassets in Resources */,
 				184617E0270257710068A3CB /* Main.storyboard in Resources */,
 			);
@@ -487,6 +510,7 @@
 				1846181927037F520068A3CB /* GenericBaseView.swift in Sources */,
 				1846180E27032AE30068A3CB /* BaseView.swift in Sources */,
 				18461840270516740068A3CB /* PermissionViewBuilder.swift in Sources */,
+				184618542705CAB80068A3CB /* String+Extensions.swift in Sources */,
 				1846183C270513090068A3CB /* PermissionViewModel.swift in Sources */,
 				184618222703AB4C0068A3CB /* ActionModuleData.swift in Sources */,
 				18461846270518AA0068A3CB /* PhotosPermissionManager.swift in Sources */,
@@ -501,10 +525,12 @@
 				18461812270333610068A3CB /* ActionButtonType.swift in Sources */,
 				184618202703AB190068A3CB /* ActionModule.swift in Sources */,
 				184618272704EE3E0068A3CB /* LabelComponentData.swift in Sources */,
+				184618522705A5A60068A3CB /* PermissionLocalizables.swift in Sources */,
 				184618142703336F0068A3CB /* ActionButtonTheme.swift in Sources */,
 				18461843270517930068A3CB /* CameraPermissionManager.swift in Sources */,
 				184618292704F3D50068A3CB /* FontManager.swift in Sources */,
 				1846181D27039A140068A3CB /* UIView+Extensions.swift in Sources */,
+				18461856270623B80068A3CB /* BaseViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -557,6 +583,15 @@
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
+		1846184E2705A3090068A3CB /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1846184D2705A3090068A3CB /* en */,
+				1846184F2705A34A0068A3CB /* tr */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
@@ -564,6 +599,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
@@ -625,6 +661,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";

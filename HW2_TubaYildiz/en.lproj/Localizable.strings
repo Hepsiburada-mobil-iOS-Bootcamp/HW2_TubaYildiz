@@ -1,0 +1,16 @@
+/* 
+  Localizable.strings
+  HW2_TubaYildiz
+
+  Created by Tuba Nur on 30.09.2021.
+  
+*/
+"cameraPermissionTitle" = "Camera Permission";
+"cameraPermissionSubtitle" = "Would you please give permission to access your camera.";
+
+
+"photosPermissionTitle" = "Photos Permission";
+"photosPermissionSubTitle" = "Would you please give permission to access your photos.";
+
+"permissionOk" = "OK";
+"permissionNotNow" = "Not Now";

@@ -15,6 +15,6 @@ protocol PermissionManagerProtocol {
     
     func requestPermission(with completion: @escaping VoidCompletionBlock)
     
-    func getPermissionMainViewData() -> PermissionMainViewData
+    func getPermissionMainViewData(with negativeListener: @escaping VoidCompletionBlock, with positiveListener: @escaping VoidCompletionBlock) -> PermissionMainViewData
     
 }

@@ -13,7 +13,7 @@ class ActionModule: GenericBaseView<ActionModuleData>{
        let temp = UIView()
         temp.translatesAutoresizingMaskIntoConstraints = false
         temp.clipsToBounds = true
-        temp.backgroundColor = .white
+        temp.layer.cornerRadius = 6
         return temp
     }()
     
@@ -34,7 +34,7 @@ class ActionModule: GenericBaseView<ActionModuleData>{
        let temp = ActionButton()
         temp.translatesAutoresizingMaskIntoConstraints = false
         temp.heightAnchor.constraint(equalToConstant: 40).isActive = true
-        temp.widthAnchor.constraint(equalToConstant: 120).isActive = false
+        temp.widthAnchor.constraint(equalToConstant: 150).isActive = true
         return temp
     }()
     
@@ -42,7 +42,8 @@ class ActionModule: GenericBaseView<ActionModuleData>{
        let temp = ActionButton()
         temp.translatesAutoresizingMaskIntoConstraints = false
         temp.heightAnchor.constraint(equalToConstant: 40).isActive = true
-        temp.widthAnchor.constraint(equalToConstant: 120).isActive = false
+        temp.widthAnchor.constraint(equalToConstant: 150).isActive = true
+
         return temp
     }()
     
@@ -54,7 +55,7 @@ class ActionModule: GenericBaseView<ActionModuleData>{
     private func addUserComponents(){
         addSubview(containerView)
         containerView.addSubview(mainStackView)
-        
+
         NSLayoutConstraint.activate([
             containerView.topAnchor.constraint(equalTo: topAnchor),
             containerView.bottomAnchor.constraint(equalTo: bottomAnchor),
@@ -66,7 +67,6 @@ class ActionModule: GenericBaseView<ActionModuleData>{
             mainStackView.leadingAnchor.constraint(equalTo: containerView.leadingAnchor, constant: 10),
             mainStackView.trailingAnchor.constraint(equalTo: containerView.trailingAnchor, constant: -10),
             
-
         ])
         
     }

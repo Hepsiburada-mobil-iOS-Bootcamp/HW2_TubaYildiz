@@ -8,12 +8,15 @@
 import Foundation
 
 class PhotosPermissionManager: PermissionManagerProtocol {
+   
+    
     
     func requestPermission(with completion: @escaping VoidCompletionBlock) {
         print ("request permission")
     }
-    
-    func getPermissionMainViewData() -> PermissionMainViewData {
-        return PermissionMainViewData(image: PermissionImages.photos.value, labelData: LabelComponentData(title: "Photos Permission", subTitle: "Would you please give permission to access your photos."), actionModuleData: ActionModuleData(negativeButtonData: ActionButtonData(text: "Not Now", type: .outlined(.bright)), positiveButtonData: ActionButtonData(text: "OK", type: .filled(.bright))))
+    func getPermissionMainViewData(with negativeListener: @escaping VoidCompletionBlock, with positiveListener: @escaping VoidCompletionBlock) -> PermissionMainViewData {
+        return PermissionMainViewData(image: PermissionImages.photos.value, labelData: LabelComponentData(title: PermissionLocalizables.photosPermissionTitle.value, subTitle: PermissionLocalizables.photosPermissionSubTitle.value), actionModuleData: ActionModuleData(negativeButtonData: ActionButtonData(text: PermissionLocalizables.permissionNotNow.value, type: .outlined(.bright)).setActionButtonListener(by: negativeListener), positiveButtonData: ActionButtonData(text: PermissionLocalizables.permissionOk.value, type: .filled(.bright)).setActionButtonListener(by: positiveListener)))
     }
+
 }
+    
