@@ -43,6 +43,10 @@
 		184618522705A5A60068A3CB /* PermissionLocalizables.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184618512705A5A60068A3CB /* PermissionLocalizables.swift */; };
 		184618542705CAB80068A3CB /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184618532705CAB80068A3CB /* String+Extensions.swift */; };
 		18461856270623B80068A3CB /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18461855270623B80068A3CB /* BaseViewController.swift */; };
+		18461858270715190068A3CB /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18461857270715180068A3CB /* MainViewController.swift */; };
+		1846185A270715870068A3CB /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18461859270715870068A3CB /* MainViewModel.swift */; };
+		1846185D270715C20068A3CB /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1846185C270715C20068A3CB /* MainView.swift */; };
+		1846185F270715E60068A3CB /* MainViewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1846185E270715E60068A3CB /* MainViewData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -104,6 +108,10 @@
 		184618512705A5A60068A3CB /* PermissionLocalizables.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PermissionLocalizables.swift; sourceTree = "<group>"; };
 		184618532705CAB80068A3CB /* String+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
 		18461855270623B80068A3CB /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		18461857270715180068A3CB /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		18461859270715870068A3CB /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
+		1846185C270715C20068A3CB /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		1846185E270715E60068A3CB /* MainViewData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -191,6 +199,7 @@
 		184618082703246A0068A3CB /* Components */ = {
 			isa = PBXGroup;
 			children = (
+				1846185B270715AF0068A3CB /* MainViewComponent */,
 				1846182A2704F5C70068A3CB /* PermissionMainComponent */,
 				184618232704EE0E0068A3CB /* LabelComponent */,
 				1846181E2703AAFE0068A3CB /* ActionModuleComponent */,
@@ -288,6 +297,8 @@
 		184618312704FD780068A3CB /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				18461857270715180068A3CB /* MainViewController.swift */,
+				18461859270715870068A3CB /* MainViewModel.swift */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -367,6 +378,15 @@
 				184618512705A5A60068A3CB /* PermissionLocalizables.swift */,
 			);
 			path = PermissionLocalizables;
+			sourceTree = "<group>";
+		};
+		1846185B270715AF0068A3CB /* MainViewComponent */ = {
+			isa = PBXGroup;
+			children = (
+				1846185C270715C20068A3CB /* MainView.swift */,
+				1846185E270715E60068A3CB /* MainViewData.swift */,
+			);
+			path = MainViewComponent;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -511,6 +531,7 @@
 				1846180E27032AE30068A3CB /* BaseView.swift in Sources */,
 				18461840270516740068A3CB /* PermissionViewBuilder.swift in Sources */,
 				184618542705CAB80068A3CB /* String+Extensions.swift in Sources */,
+				18461858270715190068A3CB /* MainViewController.swift in Sources */,
 				1846183C270513090068A3CB /* PermissionViewModel.swift in Sources */,
 				184618222703AB4C0068A3CB /* ActionModuleData.swift in Sources */,
 				18461846270518AA0068A3CB /* PhotosPermissionManager.swift in Sources */,
@@ -528,9 +549,12 @@
 				184618522705A5A60068A3CB /* PermissionLocalizables.swift in Sources */,
 				184618142703336F0068A3CB /* ActionButtonTheme.swift in Sources */,
 				18461843270517930068A3CB /* CameraPermissionManager.swift in Sources */,
+				1846185F270715E60068A3CB /* MainViewData.swift in Sources */,
 				184618292704F3D50068A3CB /* FontManager.swift in Sources */,
+				1846185D270715C20068A3CB /* MainView.swift in Sources */,
 				1846181D27039A140068A3CB /* UIView+Extensions.swift in Sources */,
 				18461856270623B80068A3CB /* BaseViewController.swift in Sources */,
+				1846185A270715870068A3CB /* MainViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

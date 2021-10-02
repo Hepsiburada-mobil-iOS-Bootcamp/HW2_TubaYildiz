@@ -26,5 +26,8 @@ enum PermissionLocalizables: String, GenericValueProtocol{
     case permissionOk = "permissionOk"
     case permissionNotNow = "permissionNotNow"
     
+    case camera = "camera"
+    case photos = "photos"
+    
     
 }
